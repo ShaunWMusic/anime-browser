@@ -56,6 +56,10 @@ margin: -0.5rem;
 
 &__item {
   margin: 0.5rem;
+
+  &--no-shrink {
+    flex-shrink: 0;
+  }
 }
 }
 
@@ -73,5 +77,12 @@ margin: -0.5rem;
   }
   &__summary {
     margin-bottom: 0;
+  }
+}
+
+.result-stats {
+  display: flex;
+  &__item {
+  margin: 0 0.5rem;
   }
 }
