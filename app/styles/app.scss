@@ -9,7 +9,7 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 body {
   margin: 0;
   font-family: sans-serif;
-  background: #393939;
+  background: #424242;
 }
 
 section {
@@ -22,8 +22,17 @@ section {
 }
 
 .app {
+  background: #ffe0b2;
   padding: 1rem;
   &__header {
 
+  }
+}
+
+.results-list {
+  margin: -1rem;
+
+  &__item {
+    margin: 1rem;
   }
 }
