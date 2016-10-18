@@ -24,15 +24,27 @@ section {
 .app {
   background: #ffe0b2;
   padding: 1rem;
-  &__header {
+}
 
+.search-form {
+  display: flex;
+
+  &__input,
+  &__btn {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  &__input {
+    flex-grow: 1;
   }
 }
 
 .results-list {
   margin: -1rem;
+  margin-top: 0;
 
   &__item {
     margin: 1rem;
+
   }
 }
