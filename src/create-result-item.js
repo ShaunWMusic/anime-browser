@@ -10,7 +10,7 @@ export default function (data) {
           <img src="${data.cover_image}" alt="" class="result-frame__pic">
         </div>
       </div>
-      <div class="result-row__item">
+      <div class="result-row__item result-row__item--expand">
         <div class="result-info">
           <h2 class="result-info__title">${data.title}</h2>
           <p class="result-info__summary">${data.synopsis}</p>
